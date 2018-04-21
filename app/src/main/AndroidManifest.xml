@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RvSingleItemActivity" />
+        <activity android:name=".MultiltemTpyeActivity" />
+        <activity android:name=".MultiDeleteActivity"></activity>
     </application>
 
 </manifest>
