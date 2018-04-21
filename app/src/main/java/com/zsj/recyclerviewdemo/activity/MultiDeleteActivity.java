@@ -1,7 +1,9 @@
-package com.zsj.recyclerviewdemo;
+package com.zsj.recyclerviewdemo.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.zsj.recyclerviewdemo.R;
 
 public class MultiDeleteActivity extends AppCompatActivity {
 

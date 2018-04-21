@@ -1,4 +1,4 @@
-package com.zsj.recyclerviewdemo;
+package com.zsj.recyclerviewdemo.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewStub;
 
+import com.zsj.recyclerviewdemo.R;
 import com.zsj.recyclerviewdemo.rvlib.CommonAdapter;
 import com.zsj.recyclerviewdemo.rvlib.base.ViewHolder;
 

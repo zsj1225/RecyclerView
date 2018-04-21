@@ -1,4 +1,4 @@
-package com.zsj.recyclerviewdemo;
+package com.zsj.recyclerviewdemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.zsj.recyclerviewdemo.MultilAdapter;
+import com.zsj.recyclerviewdemo.R;
 import com.zsj.recyclerviewdemo.bean.ContextItem;
 import com.zsj.recyclerviewdemo.bean.DisplayableItem;
 import com.zsj.recyclerviewdemo.bean.TitleItem;
@@ -50,6 +52,6 @@ public class MultiltemTpyeActivity extends AppCompatActivity {
         mRv.setLayoutManager(new LinearLayoutManager(this));
 
         //通过以下方法添加分割线
-        mRv.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
+        mRv.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
     }
 }
