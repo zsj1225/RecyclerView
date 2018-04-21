@@ -2,6 +2,7 @@ package com.zsj.recyclerviewdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -47,5 +48,8 @@ public class MultiltemTpyeActivity extends AppCompatActivity {
     private void initView() {
         mRv = (RecyclerView) findViewById(R.id.rv);
         mRv.setLayoutManager(new LinearLayoutManager(this));
+
+        //通过以下方法添加分割线
+        mRv.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
     }
 }

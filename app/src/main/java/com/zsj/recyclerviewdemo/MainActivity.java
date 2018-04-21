@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, RvSingleItemActivity.class));
     }
 
-    public void multilLayout(View view) {
+    public void multiLayout(View view) {
         startActivity(new Intent(this,MultiltemTpyeActivity.class));
     }
 }

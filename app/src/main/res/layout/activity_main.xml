@@ -19,8 +19,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="multilLayout"
+        android:onClick="multiLayout"
         android:text="多布局"
         app:layout_constraintTop_toBottomOf="@id/btn_single" />
+
+
+
 
 </android.support.constraint.ConstraintLayout>
